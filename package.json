@@ -1,0 +1,23 @@
+{
+  "name": "chefmeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armandoecr96/ChefmeAPI.git"
+  },
+  "author": "braulio.1796@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armandoecr96/ChefmeAPI/issues"
+  },
+  "homepage": "https://github.com/Armandoecr96/ChefmeAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
