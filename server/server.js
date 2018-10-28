@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 
 app.post('/getfood', function (req, res) {
     let body = req.body;
-    console.log(body.ingredient);
     try {
         body.ingredient.forEach(function(element) {
             let arrIng = element.split('%');
